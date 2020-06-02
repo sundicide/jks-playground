@@ -13,7 +13,10 @@
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.10.0",
-    "material-table": "^1.57.2"
+    "highlight.js": "^10.0.3",
+    "immutable": "^4.0.0-rc.12",
+    "material-table": "^1.57.2",
+    "remarkable": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
