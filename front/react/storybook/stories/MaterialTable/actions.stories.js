@@ -1,5 +1,8 @@
 import React from 'react';
 import MaterialTable from "material-table";
+import { Paper } from '@material-ui/core';
+import { renderMarkdown } from "../../utils/markdown";
+import mdFile from "./actions.md";
 
 export default {
   title: 'MaterialTable/Actions',
@@ -160,3 +163,13 @@ export const FreeActionExample = () => (
     ]}
   />
 )
+
+export const Tips = () => {
+  return (
+    <div>
+      <Paper>
+        {renderMarkdown(mdFile)}
+      </Paper>
+    </div>
+  )
+}

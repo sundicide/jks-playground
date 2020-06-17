@@ -6,13 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy": "pm2 start npm --name sundicide_playground_storybook -- run storybook"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.10.0",
+    "@material-ui/icons": "^4.9.1",
+    "d3": "^5.16.0",
     "highlight.js": "^10.0.3",
     "immutable": "^4.0.0-rc.12",
     "material-table": "^1.57.2",
