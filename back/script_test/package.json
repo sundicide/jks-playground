@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "babel": "babel-node moment.js",
+    "nodemon": "nodemon --exec babel-node moment.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
