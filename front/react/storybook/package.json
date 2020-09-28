@@ -19,6 +19,7 @@
     "highlight.js": "^10.0.3",
     "immutable": "^4.0.0-rc.12",
     "material-table": "^1.57.2",
+    "ngl": "^0.10.4",
     "remarkable": "^2.0.0"
   },
   "devDependencies": {
