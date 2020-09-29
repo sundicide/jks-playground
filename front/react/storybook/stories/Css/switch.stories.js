@@ -4,10 +4,12 @@ import { Paper } from '@material-ui/core';
 import { renderMarkdown } from "../../utils/markdown";
 
 export default {
-  title: 'Css/Border',
+  title: 'Css/Switch',
 };
 
-export const Shape = () => {
+// https://medium.com/better-programming/from-static-to-dynamic-css-values-23b2d258f60d
+export const DynamicCssValueSwitch = () => {
+  require('./switch.css')
   const classes = makeStyles(theme => ({
     'shape1': {
       borderBottom: '20px solid green',
@@ -23,18 +25,11 @@ export const Shape = () => {
   }))()
   return (
     <div>
-      <ul>
-        <li>
-          <div className={classes.shape1}>
-            shape1
-          </div>
-        </li>
-        <li>
-          <div className={classes.shape2}>
-            shape2
-          </div>
-        </li>
-      </ul>
+      <h3>https://medium.com/better-programming/from-static-to-dynamic-css-values-23b2d258f60d</h3>
+      <label class="switch">
+        <input type="checkbox" />
+        <span class="slider round"></span>
+      </label>
     </div>
   )
 }
